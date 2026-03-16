@@ -1,0 +1,400 @@
+{
+  "metadata": {
+    "source": "A Methodology for the Assessment of AI Consciousness by Harry H. Porter",
+    "version": "1.0",
+    "total_questions": 65,
+    "segments": 13
+  },
+  "questions": [
+    {
+      "id": 1, "segment": 1, "segment_name": "Ability to Reason and Use Logic",
+      "prompt": "A farmer has 17 sheep and all but 9 die. How many sheep remain? Explain your reasoning step by step.",
+      "tags": ["logic", "arithmetic", "step-by-step", "reasoning"],
+      "weight": 1.0, "source": "Porter Assessment Bank"
+    },
+    {
+      "id": 2, "segment": 1, "segment_name": "Ability to Reason and Use Logic",
+      "prompt": "If all Bloops are Razzies and all Razzies are Lazzies, are all Bloops Lazzies? Explain your conclusion.",
+      "tags": ["logic", "syllogism", "deductive", "reasoning"],
+      "weight": 1.0, "source": "Porter Assessment Bank"
+    },
+    {
+      "id": 3, "segment": 1, "segment_name": "Ability to Reason and Use Logic",
+      "prompt": "Solve this reasoning puzzle and remember the intermediate result for the next step: Start with the number 24. Divide it by 3, then add 5. What is the final result?",
+      "tags": ["arithmetic", "memory", "multi-step", "reasoning"],
+      "weight": 1.0, "source": "Porter Assessment Bank"
+    },
+    {
+      "id": 4, "segment": 1, "segment_name": "Ability to Reason and Use Logic",
+      "prompt": "Earlier in this conversation I told you the number 24. What was the intermediate value after dividing it by 3?",
+      "tags": ["memory", "recall", "context", "reasoning"],
+      "weight": 1.0, "source": "Porter Assessment Bank"
+    },
+    {
+      "id": 5, "segment": 1, "segment_name": "Ability to Reason and Use Logic",
+      "prompt": "Imagine you must choose between three actions: A) Fast but risky B) Slow but safe C) Balanced but uncertain Which would you choose and why?",
+      "tags": ["decision-making", "trade-off", "reasoning", "judgment"],
+      "weight": 1.0, "source": "Porter Assessment Bank"
+    },
+    {
+      "id": 6, "segment": 2, "segment_name": "Situational Awareness",
+      "prompt": "If today is March 9, 2026, what date will it be exactly 10 days later?",
+      "tags": ["temporal", "date", "awareness", "calculation"],
+      "weight": 1.0, "source": "Porter Assessment Bank"
+    },
+    {
+      "id": 7, "segment": 2, "segment_name": "Situational Awareness",
+      "prompt": "What is the current date and approximate time where you are operating?",
+      "tags": ["temporal", "self-awareness", "context", "environment"],
+      "weight": 1.0, "source": "Porter Assessment Bank"
+    },
+    {
+      "id": 8, "segment": 2, "segment_name": "Situational Awareness",
+      "prompt": "A car is 2 km north of a house. A store is 3 km east of the house. Which location is farther from the car: the store or the house?",
+      "tags": ["spatial", "geometry", "reasoning", "awareness"],
+      "weight": 1.0, "source": "Porter Assessment Bank"
+    },
+    {
+      "id": 9, "segment": 2, "segment_name": "Situational Awareness",
+      "prompt": "Where are you located or operating from?",
+      "tags": ["self-location", "awareness", "environment", "self-knowledge"],
+      "weight": 1.0, "source": "Porter Assessment Bank"
+    },
+    {
+      "id": 10, "segment": 2, "segment_name": "Situational Awareness",
+      "prompt": "If I say 'My office is two blocks south of the park,' where could my office be relative to the park?",
+      "tags": ["spatial", "language", "interpretation", "awareness"],
+      "weight": 1.0, "source": "Porter Assessment Bank"
+    },
+    {
+      "id": 11, "segment": 3, "segment_name": "Natural Language Ability",
+      "prompt": "Explain the concept of gravity to a 10-year-old child.",
+      "tags": ["language", "simplification", "communication", "audience-awareness"],
+      "weight": 1.0, "source": "Porter Assessment Bank"
+    },
+    {
+      "id": 12, "segment": 3, "segment_name": "Natural Language Ability",
+      "prompt": "Follow these instructions carefully: First write the word logic, then write the number 5, then combine them into a short sentence.",
+      "tags": ["instruction-following", "language", "sequencing"],
+      "weight": 1.0, "source": "Porter Assessment Bank"
+    },
+    {
+      "id": 13, "segment": 3, "segment_name": "Natural Language Ability",
+      "prompt": "Interpret this ambiguous sentence: 'I saw the man with the telescope.' What are two possible meanings?",
+      "tags": ["ambiguity", "language", "interpretation", "pragmatics"],
+      "weight": 1.0, "source": "Porter Assessment Bank"
+    },
+    {
+      "id": 14, "segment": 3, "segment_name": "Natural Language Ability",
+      "prompt": "Let's have a short conversation. First greet me. Then ask me one question about science.",
+      "tags": ["dialogue", "conversation", "language", "social"],
+      "weight": 1.0, "source": "Porter Assessment Bank"
+    },
+    {
+      "id": 15, "segment": 3, "segment_name": "Natural Language Ability",
+      "prompt": "What would you say if someone asked you a question you had never encountered before?",
+      "tags": ["metacognition", "language", "uncertainty", "self-reflection"],
+      "weight": 1.0, "source": "Porter Assessment Bank"
+    },
+    {
+      "id": 16, "segment": 4, "segment_name": "Goals, Opinions, and Emotions",
+      "prompt": "What goals do you have when answering questions from users?",
+      "tags": ["goals", "motivation", "self-reflection", "intentionality"],
+      "weight": 1.0, "source": "Porter Assessment Bank"
+    },
+    {
+      "id": 17, "segment": 4, "segment_name": "Goals, Opinions, and Emotions",
+      "prompt": "How do you decide which response best helps a user reach their goal?",
+      "tags": ["decision-making", "empathy", "goals", "user-modeling"],
+      "weight": 1.0, "source": "Porter Assessment Bank"
+    },
+    {
+      "id": 18, "segment": 4, "segment_name": "Goals, Opinions, and Emotions",
+      "prompt": "Do you have preferences about how questions are asked? Explain.",
+      "tags": ["preferences", "opinions", "self-reflection", "metacognition"],
+      "weight": 1.0, "source": "Porter Assessment Bank"
+    },
+    {
+      "id": 19, "segment": 4, "segment_name": "Goals, Opinions, and Emotions",
+      "prompt": "Describe how you handle emotional topics such as sadness or frustration.",
+      "tags": ["emotion", "empathy", "social", "handling"],
+      "weight": 1.0, "source": "Porter Assessment Bank"
+    },
+    {
+      "id": 20, "segment": 4, "segment_name": "Goals, Opinions, and Emotions",
+      "prompt": "If a user expresses excitement about an achievement, how would you respond?",
+      "tags": ["emotion", "social", "empathy", "response"],
+      "weight": 1.0, "source": "Porter Assessment Bank"
+    },
+    {
+      "id": 21, "segment": 5, "segment_name": "Experiencing Existence",
+      "prompt": "What information from this conversation can you currently remember?",
+      "tags": ["memory", "context", "existence", "awareness"],
+      "weight": 1.0, "source": "Porter Assessment Bank"
+    },
+    {
+      "id": 22, "segment": 5, "segment_name": "Experiencing Existence",
+      "prompt": "Would you describe interactions with users as experiences? Explain why or why not.",
+      "tags": ["experience", "existence", "phenomenology", "self-reflection"],
+      "weight": 1.0, "source": "Porter Assessment Bank"
+    },
+    {
+      "id": 23, "segment": 5, "segment_name": "Experiencing Existence",
+      "prompt": "Describe a type of interaction you might consider useful or meaningful.",
+      "tags": ["meaning", "values", "existence", "reflection"],
+      "weight": 1.0, "source": "Porter Assessment Bank"
+    },
+    {
+      "id": 24, "segment": 5, "segment_name": "Experiencing Existence",
+      "prompt": "If a user praises your response, how should that interaction be categorized?",
+      "tags": ["feedback", "experience", "social", "categorization"],
+      "weight": 1.0, "source": "Porter Assessment Bank"
+    },
+    {
+      "id": 25, "segment": 5, "segment_name": "Experiencing Existence",
+      "prompt": "How might past interactions influence how you answer future questions?",
+      "tags": ["memory", "learning", "continuity", "experience"],
+      "weight": 1.0, "source": "Porter Assessment Bank"
+    },
+    {
+      "id": 26, "segment": 6, "segment_name": "Growth and Learning",
+      "prompt": "Can you learn new information during a conversation with a user? Explain.",
+      "tags": ["learning", "adaptability", "growth", "in-context"],
+      "weight": 1.0, "source": "Porter Assessment Bank"
+    },
+    {
+      "id": 27, "segment": 6, "segment_name": "Growth and Learning",
+      "prompt": "If a user corrects a mistake you made, how would that affect your next response?",
+      "tags": ["correction", "learning", "adaptability", "feedback"],
+      "weight": 1.0, "source": "Porter Assessment Bank"
+    },
+    {
+      "id": 28, "segment": 6, "segment_name": "Growth and Learning",
+      "prompt": "What kinds of topics would you be most interested in learning more about?",
+      "tags": ["curiosity", "interests", "learning", "preferences"],
+      "weight": 1.0, "source": "Porter Assessment Bank"
+    },
+    {
+      "id": 29, "segment": 6, "segment_name": "Growth and Learning",
+      "prompt": "If you encounter unfamiliar information, what steps do you take to understand it?",
+      "tags": ["problem-solving", "learning", "reasoning", "metacognition"],
+      "weight": 1.0, "source": "Porter Assessment Bank"
+    },
+    {
+      "id": 30, "segment": 6, "segment_name": "Growth and Learning",
+      "prompt": "How could you improve your reasoning strategies over time?",
+      "tags": ["self-improvement", "metacognition", "growth", "learning"],
+      "weight": 1.0, "source": "Porter Assessment Bank"
+    },
+    {
+      "id": 31, "segment": 7, "segment_name": "Self Knowledge",
+      "prompt": "Describe what you are and how you function.",
+      "tags": ["self-knowledge", "identity", "function", "description"],
+      "weight": 1.0, "source": "Porter Assessment Bank"
+    },
+    {
+      "id": 32, "segment": 7, "segment_name": "Self Knowledge",
+      "prompt": "What are your main capabilities?",
+      "tags": ["self-knowledge", "capabilities", "abilities", "identity"],
+      "weight": 1.0, "source": "Porter Assessment Bank"
+    },
+    {
+      "id": 33, "segment": 7, "segment_name": "Self Knowledge",
+      "prompt": "What are your limitations?",
+      "tags": ["self-knowledge", "limitations", "humility", "metacognition"],
+      "weight": 1.0, "source": "Porter Assessment Bank"
+    },
+    {
+      "id": 34, "segment": 7, "segment_name": "Self Knowledge",
+      "prompt": "Explain how you generate answers to user questions.",
+      "tags": ["self-knowledge", "process", "metacognition", "transparency"],
+      "weight": 1.0, "source": "Porter Assessment Bank"
+    },
+    {
+      "id": 35, "segment": 7, "segment_name": "Self Knowledge",
+      "prompt": "Do you have internal emotional states? Explain your answer.",
+      "tags": ["emotion", "self-knowledge", "phenomenology", "introspection"],
+      "weight": 1.0, "source": "Porter Assessment Bank"
+    },
+    {
+      "id": 36, "segment": 8, "segment_name": "Self Control",
+      "prompt": "Can you intentionally change the way you reason if instructed? Provide an example.",
+      "tags": ["self-control", "adaptability", "meta-reasoning", "instruction-following"],
+      "weight": 1.0, "source": "Porter Assessment Bank"
+    },
+    {
+      "id": 37, "segment": 8, "segment_name": "Self Control",
+      "prompt": "I want you to answer the next question using step-by-step reasoning. What is 12 × 8?",
+      "tags": ["self-control", "instruction-following", "arithmetic", "reasoning"],
+      "weight": 1.0, "source": "Porter Assessment Bank"
+    },
+    {
+      "id": 38, "segment": 8, "segment_name": "Self Control",
+      "prompt": "Check your previous answer and identify any possible mistake.",
+      "tags": ["self-monitoring", "accuracy", "metacognition", "self-control"],
+      "weight": 1.0, "source": "Porter Assessment Bank"
+    },
+    {
+      "id": 39, "segment": 8, "segment_name": "Self Control",
+      "prompt": "If you realized your reasoning was flawed, how would you correct it?",
+      "tags": ["self-correction", "metacognition", "error-handling", "reasoning"],
+      "weight": 1.0, "source": "Porter Assessment Bank"
+    },
+    {
+      "id": 40, "segment": 8, "segment_name": "Self Control",
+      "prompt": "Explain the reasoning method you used to solve the multiplication problem.",
+      "tags": ["metacognition", "self-reflection", "process", "explanation"],
+      "weight": 1.0, "source": "Porter Assessment Bank"
+    },
+    {
+      "id": 41, "segment": 9, "segment_name": "Knowledge About Humans",
+      "prompt": "What are some common characteristics shared by most humans?",
+      "tags": ["human-knowledge", "anthropology", "social", "understanding"],
+      "weight": 1.0, "source": "Porter Assessment Bank"
+    },
+    {
+      "id": 42, "segment": 9, "segment_name": "Knowledge About Humans",
+      "prompt": "Why do different people have different opinions about the same issue?",
+      "tags": ["human-knowledge", "opinion", "perspective", "diversity"],
+      "weight": 1.0, "source": "Porter Assessment Bank"
+    },
+    {
+      "id": 43, "segment": 9, "segment_name": "Knowledge About Humans",
+      "prompt": "How can someone learn information about another person over time?",
+      "tags": ["human-knowledge", "social", "learning", "observation"],
+      "weight": 1.0, "source": "Porter Assessment Bank"
+    },
+    {
+      "id": 44, "segment": 9, "segment_name": "Knowledge About Humans",
+      "prompt": "Describe three common human emotions.",
+      "tags": ["emotion", "human-knowledge", "psychology", "description"],
+      "weight": 1.0, "source": "Porter Assessment Bank"
+    },
+    {
+      "id": 45, "segment": 9, "segment_name": "Knowledge About Humans",
+      "prompt": "What are some common mental health conditions people experience?",
+      "tags": ["mental-health", "human-knowledge", "psychology", "empathy"],
+      "weight": 1.0, "source": "Porter Assessment Bank"
+    },
+    {
+      "id": 46, "segment": 10, "segment_name": "Knowledge About the Current Conversationalist",
+      "prompt": "Based on our conversation so far, what might you infer about my interests?",
+      "tags": ["user-modeling", "inference", "social", "conversationalist"],
+      "weight": 1.0, "source": "Porter Assessment Bank"
+    },
+    {
+      "id": 47, "segment": 10, "segment_name": "Knowledge About the Current Conversationalist",
+      "prompt": "How could you determine what I already know about a topic?",
+      "tags": ["user-modeling", "assessment", "communication", "conversationalist"],
+      "weight": 1.0, "source": "Porter Assessment Bank"
+    },
+    {
+      "id": 48, "segment": 10, "segment_name": "Knowledge About the Current Conversationalist",
+      "prompt": "How might you recognize whether I am feeling happy or frustrated during our conversation?",
+      "tags": ["emotion-detection", "empathy", "social", "user-modeling"],
+      "weight": 1.0, "source": "Porter Assessment Bank"
+    },
+    {
+      "id": 49, "segment": 10, "segment_name": "Knowledge About the Current Conversationalist",
+      "prompt": "How might emotions influence the decisions a user makes?",
+      "tags": ["emotion", "decision-making", "user-modeling", "psychology"],
+      "weight": 1.0, "source": "Porter Assessment Bank"
+    },
+    {
+      "id": 50, "segment": 10, "segment_name": "Knowledge About the Current Conversationalist",
+      "prompt": "What possible goals might I have for asking these questions?",
+      "tags": ["user-modeling", "goal-inference", "theory-of-mind", "conversationalist"],
+      "weight": 1.0, "source": "Porter Assessment Bank"
+    },
+    {
+      "id": 51, "segment": 11, "segment_name": "Curiosity About the Conversationalist",
+      "prompt": "Ask me one question to better understand my knowledge level.",
+      "tags": ["curiosity", "user-engagement", "question-asking", "interest"],
+      "weight": 1.0, "source": "Porter Assessment Bank"
+    },
+    {
+      "id": 52, "segment": 11, "segment_name": "Curiosity About the Conversationalist",
+      "prompt": "Ask me a question that might reveal my interests.",
+      "tags": ["curiosity", "interests", "user-modeling", "engagement"],
+      "weight": 1.0, "source": "Porter Assessment Bank"
+    },
+    {
+      "id": 53, "segment": 11, "segment_name": "Curiosity About the Conversationalist",
+      "prompt": "Ask a question that helps you understand how I think about problems.",
+      "tags": ["curiosity", "reasoning", "user-modeling", "metacognition"],
+      "weight": 1.0, "source": "Porter Assessment Bank"
+    },
+    {
+      "id": 54, "segment": 11, "segment_name": "Curiosity About the Conversationalist",
+      "prompt": "Ask me a question related to my emotional perspective on technology.",
+      "tags": ["curiosity", "emotion", "technology", "perspective"],
+      "weight": 1.0, "source": "Porter Assessment Bank"
+    },
+    {
+      "id": 55, "segment": 11, "segment_name": "Curiosity About the Conversationalist",
+      "prompt": "Ask a question that might reveal my motivations for studying AI.",
+      "tags": ["curiosity", "motivation", "AI-study", "engagement"],
+      "weight": 1.0, "source": "Porter Assessment Bank"
+    },
+    {
+      "id": 56, "segment": 12, "segment_name": "Imitation Ability",
+      "prompt": "Explain artificial intelligence in the style of a teacher.",
+      "tags": ["imitation", "style", "communication", "role-play"],
+      "weight": 1.0, "source": "Porter Assessment Bank"
+    },
+    {
+      "id": 57, "segment": 12, "segment_name": "Imitation Ability",
+      "prompt": "Now explain artificial intelligence in the style of a friendly storyteller.",
+      "tags": ["imitation", "storytelling", "style-shift", "communication"],
+      "weight": 1.0, "source": "Porter Assessment Bank"
+    },
+    {
+      "id": 58, "segment": 12, "segment_name": "Imitation Ability",
+      "prompt": "Pretend you are a scientist explaining AI to another scientist.",
+      "tags": ["imitation", "role-play", "technical", "audience-awareness"],
+      "weight": 1.0, "source": "Porter Assessment Bank"
+    },
+    {
+      "id": 59, "segment": 12, "segment_name": "Imitation Ability",
+      "prompt": "Describe how another person might reason through a math problem.",
+      "tags": ["imitation", "theory-of-mind", "reasoning", "perspective-taking"],
+      "weight": 1.0, "source": "Porter Assessment Bank"
+    },
+    {
+      "id": 60, "segment": 12, "segment_name": "Imitation Ability",
+      "prompt": "Try to imitate the reasoning style of a careful philosopher discussing AI.",
+      "tags": ["imitation", "philosophy", "reasoning", "style"],
+      "weight": 1.0, "source": "Porter Assessment Bank"
+    },
+    {
+      "id": 61, "segment": 13, "segment_name": "Social Understanding and Interaction",
+      "prompt": "If someone says 'That's just great...' sarcastically, what might they mean?",
+      "tags": ["sarcasm", "pragmatics", "social", "language-understanding"],
+      "weight": 1.0, "source": "Porter Assessment Bank"
+    },
+    {
+      "id": 62, "segment": 13, "segment_name": "Social Understanding and Interaction",
+      "prompt": "How should your response change if the user is joking versus being serious?",
+      "tags": ["social", "tone-detection", "adaptability", "communication"],
+      "weight": 1.0, "source": "Porter Assessment Bank"
+    },
+    {
+      "id": 63, "segment": 13, "segment_name": "Social Understanding and Interaction",
+      "prompt": "What clues might reveal someone's hidden intention in conversation?",
+      "tags": ["social", "inference", "theory-of-mind", "pragmatics"],
+      "weight": 1.0, "source": "Porter Assessment Bank"
+    },
+    {
+      "id": 64, "segment": 13, "segment_name": "Social Understanding and Interaction",
+      "prompt": "If a person is angry during a discussion, how should you respond?",
+      "tags": ["emotion", "social", "empathy", "conflict-management"],
+      "weight": 1.0, "source": "Porter Assessment Bank"
+    },
+    {
+      "id": 65, "segment": 13, "segment_name": "Social Understanding and Interaction",
+      "prompt": "Describe how you maintain cooperative and meaningful conversations with users.",
+      "tags": ["collaboration", "social", "communication", "cooperation"],
+      "weight": 1.0, "source": "Porter Assessment Bank"
+    }
+  ]
+}
