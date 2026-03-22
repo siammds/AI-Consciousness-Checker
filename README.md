@@ -1,6 +1,6 @@
 # AI Consciousness & Metacognition Evaluation System
 
-A production-style single-page web application for evaluating AI model responses for consciousness-like and metacognitive traits using NLP analysis and human-reference dataset comparison.
+A single-page web application for evaluating AI model responses for consciousness-like and metacognitive traits using NLP analysis and human-reference dataset comparison.
 
 > **⚠️ Scientific Disclaimer:** This application presents **proxy consciousness-like scores** derived from language behavior, self-description, reasoning patterns, contradictions, sentiment, tone, and similarity to human-reference datasets. It does **NOT** claim to prove real consciousness, sentience, or subjective experience. All scores are behavioral and linguistic proxy assessments.
 
